@@ -127,10 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="Fantast.cpp" />
+    <ClCompile Include="Keeper.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Poet.cpp" />
+    <ClCompile Include="Roman.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="file.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="Fantast.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="Poet.h" />
+    <ClInclude Include="Roman.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
