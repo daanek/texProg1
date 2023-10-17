@@ -20,6 +20,7 @@ using namespace std;
 	}
 	Keeper::~Keeper()
 	{
+		cout << "disstructor Keeper" << endl;
 		delete arr;
 	}
 	Keeper Keeper::operator +(int a)

@@ -6,8 +6,6 @@
 #include <fstream>
 #include "Keeper.h"
 using namespace std;
-//+ git C:\Users\skaku\source\repos\tstaexProg1\texProg1\main.cpp
-
 int main()
 {
 	Keeper one;
